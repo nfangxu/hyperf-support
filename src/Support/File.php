@@ -1,5 +1,14 @@
 <?php
+
 declare(strict_types=1);
+/**
+ * This file is part of Hyperf.
+ *
+ * @link     https://www.hyperf.io
+ * @document https://doc.hyperf.io
+ * @contact  group@hyperf.io
+ * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
+ */
 
 namespace Fangx\Facade\Support;
 
@@ -7,8 +16,7 @@ use Fangx\Facade\Facade;
 use Hyperf\Utils\ApplicationContext;
 
 /**
- * Class File
- * @package App\Facade
+ * Class File.
  *
  * @method static bool has($path)
  * @method static string|false read($path)
@@ -54,7 +62,7 @@ class File extends Facade
 
     private static function checkClassExists()
     {
-        if (!class_exists(\Hyperf\Filesystem\FilesystemFactory::class)) {
+        if (! class_exists(\Hyperf\Filesystem\FilesystemFactory::class)) {
             throw new \RuntimeException('use Fangx\\Facade\\Support\\File::class must installed hyperf/filesystem');
         }
     }
