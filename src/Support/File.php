@@ -52,7 +52,7 @@ class File extends Facade
         return \League\Flysystem\Filesystem::class;
     }
 
-    public static function storage($name): Filesystem
+    public static function storage($name): \League\Flysystem\Filesystem
     {
         static::checkClassExists();
         return ApplicationContext::getContainer()
