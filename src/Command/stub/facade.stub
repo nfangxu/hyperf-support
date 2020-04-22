@@ -1,0 +1,16 @@
+<?php
+
+declare(strict_types=1);
+
+namespace %NAMESPACE%;
+
+use Fangx\Facade\Fangx;
+
+class %CLASS% extends Fangx
+{
+    public static function getFacadeAccessor()
+    {
+        // TODO: Implement getFacadeAccessor() method.
+        return '';
+    }
+}
