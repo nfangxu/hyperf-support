@@ -8,11 +8,11 @@ composer require fangx/hyperf-support
 
 # 内置
 
+## v1.1
+- `Fangx\Facade\Support\Command` => `Fangx\Facade\Service\CommandService`
+
 ## v1.0
 - `Fangx\Facade\Support\Event` => `Psr\EventDispatcher\EventDispatcherInterface`
 - `Fangx\Facade\Support\Log` => `Psr\Log\LoggerInterface`
 - `Fangx\Facade\Support\File` => `League\Flysystem\Filesystem`
     - 需要安装并配置 `hyperf/filesystem`
-
-## v1.1
-- `Fangx\Facade\Support\Command` => `Fangx\Facade\Service\CommandService`
