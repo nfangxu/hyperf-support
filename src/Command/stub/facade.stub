@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace %NAMESPACE%;
 
-use Fangx\Facade\Fangx;
+use Fangx\Facade\Facade;
 
-class %CLASS% extends Fangx
+class %CLASS% extends Facade
 {
     public static function getFacadeAccessor()
     {
