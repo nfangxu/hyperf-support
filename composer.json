@@ -1,10 +1,11 @@
 {
-    "name": "fangx/facade",
+    "name": "fangx/hyperf-support",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "php",
-        "hyperf"
+        "hyperf",
+        "facade"
     ],
     "description": "",
     "autoload": {
