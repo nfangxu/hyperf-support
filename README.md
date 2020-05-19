@@ -8,6 +8,9 @@ composer require fangx/hyperf-support
 
 # 内置
 
+## v1.2
+- `Fangx\Facade\Support\Schema` => `Hyperf\Database\Schema\Builder`, 使用方法等同于 `Hyperf\Database\Schema\Schema`
+
 ## v1.1
 - `Fangx\Facade\Support\Command` => `Fangx\Facade\Service\CommandService`
 
